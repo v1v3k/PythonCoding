@@ -1,4 +1,4 @@
-import Core.Adj_Matrix as Matrix
+import Core_Ds.Adj_Matrix_Graph as Matrix
 
 
 if __name__ == '__main__':

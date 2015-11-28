@@ -37,7 +37,8 @@ print round(1.2345)
 # print round(1.888)
 #2
 #binnary conversion
-print bin(1234)
+print 'Bin opp start ----------------'
+print bin(2)
 print (1234).bit_length()
 print (0.5).as_integer_ratio()
 # print (1,2)

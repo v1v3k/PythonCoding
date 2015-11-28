@@ -1,3 +1,5 @@
+from operator import itemgetter
+
 __author__ = 'george'
 
 
@@ -26,4 +28,9 @@ print A
 
 
 #Lambda
-
+student_tuples = [
+        ('john', 'A', 15),
+        ('jane', 'B', 12),
+        ('dave', 'B', 10),
+]
+sorted(student_tuples, key=itemgetter(1,2))

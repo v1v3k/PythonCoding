@@ -1,4 +1,5 @@
 __author__ = 'george'
+from operator import itemgetter
 
 items = [1, 2, 3, 4, 5]
 
@@ -40,5 +41,12 @@ inte = reduce(lambda x,y:x+y,[1,2,3,4,5,6])
 print inte
 # 21
 
+#Lambda
+student_tuples = [
+        ('john', 'A', 15),
+        ('jane', 'B', 12),
+        ('dave', 'B', 10),
+]
+print sorted(student_tuples, key=itemgetter(1,2))
 
-
+# if sort done on multiple atter in diff direction -> sort multiple times starting with lower preference
